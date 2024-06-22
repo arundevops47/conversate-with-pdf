@@ -1,3 +1,10 @@
-altair
-pandas
+chromadb
+faiss-cpu
+google-generativeai
+langchain
+langchain_community
+langchain_google_genai
+PyPDF2
+python-dotenv
+python-pptx
 streamlit

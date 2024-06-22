@@ -1,8 +1,7 @@
-# 🌀 Spiral template
+## Conversate with PDF using ChatGPT, Langchain, Embedding
 
-A simple Streamlit app that draws a spiral. 
+This project creates a conversational interface for PDFs. It uses ChatGPT to understand user questions and Langchain to bridge the gap between ChatGPT and the PDF data. Embeddings convert PDF text into a format ChatGPT can understand, while ChromaDB stores these embeddings efficiently. This allows users to ask questions about PDFs in natural language and get answers directly from the document.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://basic-template.streamlit.app/)
 
 ### How to run it on your own machine
 
@@ -15,5 +14,5 @@ A simple Streamlit app that draws a spiral.
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run app.py
    ```
