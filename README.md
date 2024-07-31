@@ -5,14 +5,24 @@ This project creates a conversational interface for PDFs. It uses ChatGPT to und
 
 ### How to run it on your own machine
 
-1. Install the requirements
+1. Create the secrets.toml file:
+
+Create the .streamlit folder in the root directory of your project.
+File name: The file must be named exactly secrets.toml (with the leading dot).
+Contents: The file uses the TOML format.  Here's an example:
+
+GOOGLE_API_KEY="your_actual_api_key_here"
+Replace "your_actual_api_key_here" with your real API key. You can add other secrets in a similar way.
+
+2. Install the requirements
 
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+3. Run the app
 
    ```
    $ streamlit run app.py
    ```
+
